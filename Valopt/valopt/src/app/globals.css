@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default Light Theme Variables */
+:root {
+  --background: #ffffff; /* Light mode background */
+  --foreground: #171717; /* Light mode text color */
+}
+
+/* Dark Theme Variables */
+html.dark {
+  --background: #0e2f3f; /* Dark mode background */
+  --foreground: #ededed; /* Dark mode text color */
+}
+
+/* Body Styles */
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  transition: all 0.3s ease;
+  cursor: default;
+  @apply overflow-x-hidden;
+}
+
+h1,
+h2,
+h3,
+label {
+  color: #292875;
+}
+
+p {
+  color: #344b80;
+  font-size: large;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #344b80;
+  font-size: medium;
+}
