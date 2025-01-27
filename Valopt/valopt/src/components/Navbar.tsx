@@ -259,7 +259,7 @@ const Navbar: React.FC = React.memo(() => {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 10 }}
-                    className="absolute z-50 w-[200px] min-w-max top-6 left-0 bg-white/95 dark:bg-gray-900/95 backdrop-blur-md shadow-lg rounded-lg p-4"
+                    className="absolute z-50 w-[200px] min-w-max top-6 left-0 bg-white/95 dark:bg-[#001C29] backdrop-blur-md shadow-lg rounded-lg p-4"
                   >
                     {item.menus.map((submenu) => (
                       <div
@@ -270,7 +270,7 @@ const Navbar: React.FC = React.memo(() => {
                           <Link
                             key={link.id}
                             href={`/${language}${link.url}`}
-                            className="block px-2 py-2 font-medium hover:bg-[#F0F5FF] dark:hover:bg-gray-700/50 hover:rounded-md text-[#344b80] dark:text-white transition-colors"
+                            className="block px-2 py-2 font-medium hover:bg-[#F0F5FF] dark:hover:bg-[#184055] hover:rounded-md text-[#344b80] dark:text-white transition-colors"
                           >
                             {t(link.name)} {/* Use translations */}
                           </Link>

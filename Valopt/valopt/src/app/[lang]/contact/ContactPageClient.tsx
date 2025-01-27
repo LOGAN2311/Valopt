@@ -119,7 +119,7 @@ export default function ContactPageClient({
   };
 
   return (
-    <div className="bg-white dark:bg-gray-900 py-16 mt-8">
+    <div className="bg-white dark:bg-[#0E2F3F] py-16 mt-8">
       <div className="max-w-7xl mx-auto px-4 pt-12 sm:px-6 lg:px-8">
         {/* Section Heading */}
         <div className="text-center mb-12">
@@ -196,7 +196,7 @@ export default function ContactPageClient({
           </div>
 
           {/* Right Side: Contact Form */}
-          <div className="bg-[#F9FAFB] dark:bg-gray-800 p-8 rounded-xl shadow-sm">
+          <div className="bg-[#F9FAFB] dark:bg-[#184055] p-8 rounded-xl shadow-sm">
             <h2 className="text-2xl font-bold dark:text-white mb-4">
               {contactData.contact_form_heading}
             </h2>

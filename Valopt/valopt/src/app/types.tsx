@@ -1,98 +1,98 @@
 // types.ts
 export interface HeroData {
-    about_hero_heading: string;
-    about_hero_description: string;
-    about_hero_image: {
-      url: string;
-      alternativeText?: string;
-    };
-    about_hero_cta: {
-      name: string;
-      url: string;
-    };
-  }
-
-  export interface HeroDataAcademy {
-    heading: string;
-    description: string;
-    image: {
-      url: string;
-      alternativeText?: string;
-    };
-    cta: {
-      name: string;
-      url: string;
-    };
-  }
-  
-  export interface SolvesData {
-    analytics_solves_heading: string;
-    analytics_solves_list: {
-      id: string;
-      heading: string;
-      description: string;
-    }[];
-  }
-  
-  export interface ServicesData {
-    about_feature_heading: string;
-    about_feature_description: string;
-    about_featureList: {
-      id: string;
-      heading: string;
-      description: string;
-    }[];
-  }
-  
-  export interface ChooseData {
-    chatbot_guide_heading: string;
-    chatbot_guide_description: string;
-    ai_assistance_guide: {
-      id: string;
-      guide_steps_no: string;
-      guide_steps_heading: string;
-      guide_steps_description: string;
-    }[];
-  }
-  
-  export interface IndustriesData {
-    about_feature_heading: string;
-    about_feature_description: string;
-    about_featureList: {
-      id: string;
-      heading: string;
-      description: string;
-      image: string;
-    }[];
-  }
-  
-  export interface DataAnalyticsData {
-    dataAnalytics_hero: HeroData;
-    dataAnalytics_solves: SolvesData;
-    dataAnalytics_services: ServicesData;
-    dataAnalytics_choose: ChooseData;
-    dataAnalytics_industries: IndustriesData;
-  }
-
- /*  export interface HeroData {
-  heading?: string;
-  description?: string;
-  icon?: {
+  about_hero_heading: string;
+  about_hero_description: string;
+  about_hero_image: {
+    url: string;
+    alternativeText?: string;
+  };
+  about_hero_cta: {
+    name: string;
     url: string;
   };
+}
+
+export interface HeroDataAcademy {
+  heading: string;
+  description: string;
+  image: {
+    url: string;
+    alternativeText?: string;
+  };
+  cta: {
+    name: string;
+    url: string;
+  };
+}
+
+export interface SolvesData {
+  analytics_solves_heading: string;
+  analytics_solves_list: {
+    id: string;
+    heading: string;
+    description: string;
+  }[];
+}
+
+export interface ServicesData {
+  about_feature_heading: string;
+  about_feature_description: string;
+  about_featureList: {
+    id: string;
+    heading: string;
+    description: string;
+  }[];
+}
+
+export interface ChooseData {
+  chatbot_guide_heading: string;
+  chatbot_guide_description: string;
+  ai_assistance_guide: {
+    id: string;
+    guide_steps_no: string;
+    guide_steps_heading: string;
+    guide_steps_description: string;
+  }[];
+}
+
+export interface IndustriesData {
+  about_feature_heading: string;
+  about_feature_description: string;
+  about_featureList: {
+    id: string;
+    heading: string;
+    description: string;
+    image: string;
+  }[];
+}
+
+export interface DataAnalyticsData {
+  dataAnalytics_hero: HeroData;
+  dataAnalytics_solves: SolvesData;
+  dataAnalytics_services: ServicesData;
+  dataAnalytics_choose: ChooseData;
+  dataAnalytics_industries: IndustriesData;
+}
+
+/*  export interface HeroData {
+heading?: string;
+description?: string;
+icon?: {
+  url: string;
+};
 } */
 
 /* export interface Feature {
-  heading?: string;
-  description?: string;
+heading?: string;
+description?: string;
 } */
 
 /* export interface CareerGrowthData {
-  heading?: string;
-  description?: string;
-  cards?: Card[];
+heading?: string;
+description?: string;
+cards?: Card[];
 }
- */
+*/
 export interface Card {
   academy_heading?: string;
   academy_description?: string;
@@ -117,11 +117,11 @@ export interface Course {
 }
 
 /* export interface WhyChooseData {
-  about_feature_heading?: string;
-  about_feature_description?: string;
-  about_featureList?: Feature[];
+about_feature_heading?: string;
+about_feature_description?: string;
+about_featureList?: Feature[];
 }
- */
+*/
 
 export interface FeatureType {
   icon: {
@@ -148,11 +148,7 @@ export interface CtaSectionType {
 }
 
 export interface AboutData {
-  About: [
-    HeroData,
-    FeaturesSectionType,
-    CtaSectionType
-  ];
+  About: [HeroData, FeaturesSectionType, CtaSectionType];
 }
 
 export interface ContactElement {
@@ -188,7 +184,6 @@ export interface FormData {
   phone: string;
   message: string;
 }
-
 
 export interface HeroDataAcademy {
   heading: string;
@@ -250,7 +245,6 @@ export interface WhyChooseData {
     };
   }[];
 }
-
 
 export interface AIData {
   __component: string;

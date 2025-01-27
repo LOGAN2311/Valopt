@@ -36,8 +36,8 @@ const TabButton: React.FC<TabButtonProps> = ({ tab, activeTab, onClick }) => (
   <button
     className={`tab-button ${
       activeTab === tab.id
-        ? "bg-[#184055] text-white shadow-lg"
-        : "bg-[#F0F0FF] text-[#184055] border border-[#184055] hover:bg-[#F8F8FF]"
+        ? "bg-[#4945FF] text-white shadow-lg"
+        : "bg-[#F0F0FF] text-[#4945FF] border border-[#4945FF] hover:bg-[#F8F8FF]"
     } py-2 px-3 flex-grow my-1 mx-2 rounded-full focus:outline-none focus:ring-2 focus:ring-[#4945FF] transition duration-300 ease-in-out transform hover:scale-102`}
     onClick={() => onClick(tab.id)}
     style={{ minWidth: "100px" }} // Ensure a minimum width for buttons

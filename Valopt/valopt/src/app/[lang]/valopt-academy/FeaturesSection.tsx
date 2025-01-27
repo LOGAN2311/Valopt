@@ -32,7 +32,7 @@ const containerVariants: Variants = {
 
 export default function FeaturesSection({ data }: FeaturesSectionProps) {
   return (
-    <section className="py-20 bg-white dark:bg-gray-900 md:px-18 sm:px-2 lg:px-24">
+    <section className="py-20 bg-white dark:bg-[#0E2F3F] md:px-18 sm:px-2 lg:px-24">
       <div className="container mx-auto px-6">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -59,9 +59,9 @@ export default function FeaturesSection({ data }: FeaturesSectionProps) {
             >
               <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-5 transition-opacity duration-300" />
 
-              <div className="relative bg-white dark:bg-gray-800 p-8 rounded-xl border border-purple-100 dark:border-gray-700 hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
+              <div className="relative bg-white dark:bg-[#184055] p-8 rounded-xl border border-purple-100 dark:border-gray-700 hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
                 {/* Feature Icon */}
-                <div className="text-[#4945FF] dark:text-purple-400 mb-6 transform group-hover:scale-105 transition-transform duration-300">
+                <div className="text-[#4945FF] dark:text-slate-300 mb-6 transform group-hover:scale-105 transition-transform duration-300">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-12 w-12"

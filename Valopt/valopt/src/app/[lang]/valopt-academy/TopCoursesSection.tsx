@@ -35,7 +35,7 @@ const containerVariants: Variants = {
 
 export default function TopCoursesSection({ data }: TopCoursesSectionProps) {
   return (
-    <section className="bg-[#1D1B84] py-20 md:px-18 sm:px-2 lg:px-24">
+    <section className="bg-[#1D1B84] dark:bg-[#001C29] py-20 md:px-18 sm:px-2 lg:px-24">
       <div className="container mx-auto px-6">
         {/* Section Heading */}
         <motion.h2
@@ -68,7 +68,7 @@ export default function TopCoursesSection({ data }: TopCoursesSectionProps) {
               {/* Course Card */}
               <Link
                 href="#"
-                className="relative bg-white p-6 rounded-xl border border-purple-100 hover:shadow-lg transition-shadow duration-300 h-full flex flex-col"
+                className="relative bg-white p-6 rounded-xl border border-purple-100 hover:shadow-lg transition-shadow duration-300 h-full flex flex-col dark:bg-[#0E2F3F] dark:border-[#184055]"
               >
                 {/* Course Image */}
                 <div className="relative w-full h-48 mb-6">
@@ -86,12 +86,12 @@ export default function TopCoursesSection({ data }: TopCoursesSectionProps) {
                 </div>
 
                 {/* Course Heading */}
-                <h3 className="text-2xl font-bold mb-4 transition-colors duration-300 flex-shrink-0">
+                <h3 className="text-2xl font-bold mb-4 transition-colors duration-300 flex-shrink-0 dark:text-slate-300">
                   {list?.heading || "Course Heading"}
                 </h3>
 
                 {/* Course Description */}
-                <p className="transition-colors duration-300 flex-grow">
+                <p className="transition-colors duration-300 flex-grow dark:text-slate-300">
                   {list?.description || "Course description goes here."}
                 </p>
               </Link>

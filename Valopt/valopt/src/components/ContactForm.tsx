@@ -25,7 +25,7 @@ export default function ContactForm({
           name="first_name"
           value={formData.first_name}
           onChange={handleInputChange}
-          className="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:ring-[#7C3AED] focus:border-[#7C3AED] dark:bg-gray-700 dark:text-white"
+          className="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:ring-[#7C3AED] focus:border-[#7C3AED] dark:bg-[#0E2F3F] dark:text-white dark:placeholder:text-slate-500"
           placeholder={contactData.first_name_placeholder}
           required
         />
@@ -45,7 +45,7 @@ export default function ContactForm({
           name="email"
           value={formData.email}
           onChange={handleInputChange}
-          className="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:ring-[#7C3AED] focus:border-[#7C3AED] dark:bg-gray-700 dark:text-white"
+          className="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:ring-[#7C3AED] focus:border-[#7C3AED] dark:bg-[#0E2F3F] dark:text-white dark:placeholder:text-slate-500"
           placeholder={contactData.email_placeholder}
           required
         />
@@ -65,7 +65,7 @@ export default function ContactForm({
           name="phone"
           value={formData.phone}
           onChange={handleInputChange}
-          className="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:ring-[#7C3AED] focus:border-[#7C3AED] dark:bg-gray-700 dark:text-white"
+          className="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:ring-[#7C3AED] focus:border-[#7C3AED] dark:bg-[#0E2F3F] dark:text-white dark:placeholder:text-slate-500"
           placeholder={contactData.phone_placeholder}
         />
       </div>
@@ -83,7 +83,7 @@ export default function ContactForm({
           name="message"
           value={formData.message}
           onChange={handleInputChange}
-          className="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:ring-[#7C3AED] focus:border-[#7C3AED] dark:bg-gray-700 dark:text-white"
+          className="mt-1 block w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:ring-[#7C3AED] focus:border-[#7C3AED] dark:bg-[#0E2F3F] dark:text-white dark:placeholder:text-slate-500"
           placeholder={contactData.message_placeholder}
           rows="4"
           required
@@ -94,7 +94,7 @@ export default function ContactForm({
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full px-4 py-2 bg-[#4945FF] text-white font-semibold rounded-md hover:bg-[#3C82F6] transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+        className="w-full px-4 py-2 bg-[#4945FF] text-white font-semibold rounded-md hover:bg-[#3C82F6] transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed dark:bg-[#001C29]"
       >
         {isSubmitting ? "Sending..." : contactData.submit_button_label}
       </button>

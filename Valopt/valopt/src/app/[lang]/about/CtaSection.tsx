@@ -30,14 +30,14 @@ export default function CtaSection({
   buttonText,
 }: CtaSectionProps) {
   return (
-    <section className="bg-white dark:bg-[#03042C] py-16 md:py-24">
+    <section className="bg-white dark:bg-[#0E2F3F] py-16 md:py-24">
       <div className="container max-w-8xl mx-auto px-5 md:px-10 lg:px-20">
         <motion.div
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, margin: "-100px" }}
           variants={fadeInVariants}
-          className="bg-[#1D1B84] dark:bg-[#10157A] rounded-2xl p-8 sm:p-10 md:p-16 text-center md:text-start md:flex md:items-center md:justify-between"
+          className="bg-[#1D1B84] dark:bg-[#184055] rounded-2xl p-8 sm:p-10 md:p-16 text-center md:text-start md:flex md:items-center md:justify-between"
         >
           {/* Text Content */}
           <div className="mb-8 md:mb-0 md:max-w-xl">
@@ -55,11 +55,11 @@ export default function CtaSection({
               <input
                 type="email"
                 placeholder={placeholder}
-                className="w-full max-w-6xl h-14 px-6 rounded-lg text-base text-gray-900 dark:bg-[#080664] dark:text-white ring-transparent"
+                className="w-full max-w-6xl h-14 px-6 rounded-lg text-base text-gray-900 dark:bg-[#0E2F3F] dark:placeholder:text-slate-300 dark:text-white ring-transparent"
               />
               <button
                 type="submit"
-                className="h-14 w-2/4 max-w-2xl bg-[#1D16FF] text-base font-semibold text-white rounded-lg hover:bg-[#e0b123] transition-colors dark:bg-[#03032C]"
+                className="h-14 w-2/4 max-w-2xl bg-[#1D16FF] text-base font-semibold text-white rounded-lg hover:bg-[#e0b123] transition-colors dark:bg-[#001C29]"
               >
                 {buttonText}
               </button>

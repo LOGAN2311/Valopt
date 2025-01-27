@@ -44,7 +44,7 @@ export default function FeaturesSection({
   items,
 }: FeaturesSectionProps) {
   return (
-    <section className="bg-white dark:bg-[#03042C] py-12 md:py-12">
+    <section className="bg-white dark:bg-[#0E2F3F] py-12 md:py-12">
       <div className="container mx-auto px-5 md:px-10 lg:px-20">
         {/* Header */}
         <motion.div
@@ -54,10 +54,10 @@ export default function FeaturesSection({
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="max-w-4xl mx-auto text-3xl font-bold dark:text-white md:text-4xl lg:text-5xl">
+          <h2 className="max-w-4xl mx-auto text-3xl font-bold dark:text-slate-300 md:text-4xl lg:text-5xl">
             {title}
           </h2>
-          <p className="mt-4 text-lg dark:text-gray-300 max-w-2xl mx-auto">
+          <p className="mt-4 text-lg dark:text-slate-300 max-w-2xl mx-auto">
             {description}
           </p>
         </motion.div>
@@ -80,7 +80,7 @@ export default function FeaturesSection({
               <div className="absolute inset-0 hover:bg-slate-300 rounded-lg opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
 
               {/* Feature Card */}
-              <div className="bg-[#EFF6FF] box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff; dark:bg-[#10157A] p-8 rounded-lg shadow-lg hover:shadow-lg transition-shadow duration-300 h-full flex flex-col items-center text-center">
+              <div className="bg-[#EFF6FF] box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff; dark:bg-[#184055] p-8 rounded-lg shadow-lg hover:shadow-lg transition-shadow duration-300 h-full flex flex-col items-center text-center">
                 {item.icon && (
                   <Image
                     src={item.icon}

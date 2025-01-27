@@ -34,7 +34,7 @@ const containerVariants: Variants = {
 
 export default function WhyChooseSection({ data }: WhyChooseSectionProps) {
   return (
-    <section className="py-20 bg-white dark:bg-gray-900 md:px-18 sm:px-2 lg:px-24">
+    <section className="py-20 bg-white dark:bg-[#0E2F3F] md:px-18 sm:px-2 lg:px-24">
       <div className="container mx-auto px-6">
         {/* Section Heading */}
         <motion.h2
@@ -65,9 +65,9 @@ export default function WhyChooseSection({ data }: WhyChooseSectionProps) {
               <div className="absolute inset-0 align-middle rounded-xl opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
 
               {/* Feature Card */}
-              <div className="relative bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-gray-800 dark:to-gray-700 p-8 rounded-xl border border-purple-100 dark:border-gray-700 hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
+              <div className="relative bg-[#EFF6FF] dark:bg-[#184055] p-8 rounded-xl border border-purple-100 dark:border-gray-700 hover:shadow-md transition-shadow duration-300 h-full flex flex-col">
                 {/* Feature Icon */}
-                <div className="text-purple-600 dark:text-purple-400 mb-4 transform group-hover:scale-105 transition-transform duration-300">
+                <div className="text-[#4945FF] dark:text-slate-300 mb-4 transform group-hover:scale-105 transition-transform duration-300">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-12 w-12"

@@ -36,7 +36,7 @@ export default function CareerGrowthSection({
   data,
 }: CareerGrowthSectionProps) {
   return (
-    <section className="py-20 bg-gray-50 dark:bg-gray-800 md:px-18 sm:px-2 lg:px-24">
+    <section className="py-20 bg-gray-50 dark:bg-[#0E2F3F] md:px-18 sm:px-2 lg:px-24">
       <div className="container mx-auto px-6">
         {/* Section Heading */}
         <motion.h2
@@ -67,7 +67,7 @@ export default function CareerGrowthSection({
               <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-indigo-500 rounded-xl opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
 
               {/* Card Content */}
-              <div className="relative bg-white dark:bg-gray-700 p-8 rounded-xl border border-purple-100 dark:border-gray-700 hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
+              <div className="relative bg-white dark:bg-[#184055] p-8 rounded-xl border border-purple-100 dark:border-gray-700 hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
                 {/* Card Image */}
                 <div className="relative w-32 h-32 mx-auto mb-6">
                   <Image

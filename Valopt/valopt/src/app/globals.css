@@ -41,3 +41,9 @@ input::placeholder {
   color: #344b80;
   font-size: medium;
 }
+
+textarea::placeholder.dark,
+input::placeholder.dark {
+  color: #ededed;
+  font-size: medium;
+}
